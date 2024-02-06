@@ -1,0 +1,110 @@
+// ?Header
+.landing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  height: 10vh;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #333;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.header-title p {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.logo {
+  border: #4e3da4 solid 3px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: #fff;
+  height: 4rem;
+  width: 4rem;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.access-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+// ?presentation
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  height: 90vh;
+  max-width: 300rem;
+}
+
+.content {
+  width: 40%;
+  max-width: 40rem;
+}
+
+.content h1 {
+  font-size: 4rem;
+  line-height: 3.5rem;
+  margin: 0 0 3rem 0;
+}
+
+.content-img {
+  width: 40%;
+  max-width: 40rem;
+  background-image: url("./../../../assets/landing/principal-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.content-img button {
+  width: 50%;
+  margin: 0 auto;
+  border: #fff solid 1px;
+  background-color: #4e3da4;
+  backdrop-filter: blur(3px);
+  font-weight: bolder;
+}
+
+.user-imgs {
+  display: flex;
+  padding-left: 2rem;
+}
+
+.user-imgs img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border: solid 4px #333;
+  margin: 1rem 0 0 -2rem;
+}
+
+.content-text{
+    margin-top: 1rem;
+}

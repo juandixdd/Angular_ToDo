@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+.divisor {
+  height: 1px;
+  border-top: #fff 2px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0px 0px 54px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 54px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 54px -2px rgba(0, 0, 0, 0.75);
+}
+
+// ? buttons
+.principal-btn {
+  background-color: #4e3da4;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.principal-btn:hover {
+  background-color: #a34b3c;
+  transform: scale(1.1);
+}
+
+.principal-btn:active {
+  transform: scale(1);
+  color: #333;
+}
+
+.principal-btn-outline {
+  background-color: transparent;
+  border: 1px #fff solid;
+  color: #fff;
+  padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.principal-btn-outline:hover {
+  background-color: #a3693c;
+  transform: scale(1.1);
+}
+
+.principal-btn-outline:active {
+  transform: scale(1);
+  color: #333;
+}
